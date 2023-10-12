@@ -1,0 +1,41 @@
+    1  clear
+    2  cd ..
+    3  cd ../..
+    4  mkdir Platform
+    5  cd Platform/
+    6  mkdir -p ThreadingTest1/demo
+    7  cd ThreadingTest1/demo/
+    8  code .
+    9  javac Program1.java 
+   10  java Program 
+   11  javac Program1.java 
+   12  java Program 
+   13  java Program 3
+   14  java Program 10
+   15  javac Program1.java 
+   16  java Program
+   17  java Program 3
+   18  javap java.lang.Runnable
+   19  javac Program2.java 
+   20  java Program 
+   21  java Program 5
+   22  javac Program2.java 
+   23  javac Program3.java 
+   24  java Program 5
+   25  java Program 25
+   26  javac Program3.java 
+   27  java Program 7
+   28  java Program 12
+   29  javac Program3.java 
+   30  java Program 7
+   31  java Program 12
+   32  pwd
+   33  cd ../../../
+   34  history > cmd0710evening.txt 
+   35  vi cmd0710evening.txt 
+   36  cd ..
+   37  cp -r 
+   38  cp -r Java /mnt/d/Sample/
+   39  cd Java
+   40  ls
+   41  history >cmd0710evening.txt 

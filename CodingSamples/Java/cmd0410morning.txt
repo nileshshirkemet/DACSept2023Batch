@@ -1,0 +1,32 @@
+    1  cd Java/Runtime/GenericMethodTest/demo/
+    2  code .
+    3  cd ../../GenericClassTest/demo/
+    4  code . &
+    5  javac Program2.java 
+    6  java Program 
+    7  cd ../..
+    8  mkdir IterableTest
+    9  cd IterableTest/
+   10  mkdir demo1
+   11  cd demo1/
+   12  cp ../../GenericClassTest/demo/SimpleStack.java .
+   13  code . &
+   14  javac Program.java 
+   15  java Program 
+   16  javap java.util.Iterator
+   17  javac Program.java 
+   18  java Program 
+   19  ls *.class
+   20  javap java.lang.Iterable
+   21  javac Program.java 
+   22  java Program 
+   23  cd ..
+   24  ls
+   25  cd ..
+   26  ls
+   27  cd Java/
+   28  cd Runtime/
+   29  ls
+   30  cd ..
+   31  vi cmd0310evening.txt 
+   32  history >cmd0410morning.txt

@@ -1,0 +1,89 @@
+    1  clear
+    2  cd Java/Runtime/ReflectionTest1/demo/
+    3  javap java.lang.reflect.Method
+    4  cd ../..
+    5  cp -r ReflectionTest1/ ReflectionTest2/
+    6  cd ReflectionTest2/demo/
+    7  ls finance/*.class
+    8  rm finance/*.class
+    9  rm Program.class 
+   10  LS
+   11  ls
+   12  rm Program1.java 
+   13  mv Program2.java Program.java
+   14  code .
+   15  javac finance/*.java
+   16  javac Program.java 
+   17  java Program 1500000 EducationLoan common
+   18  java Program 1500000 EducationLoan scholar
+   19  java Program 1500000 PersonalLoan common
+   20  java Program 1500000 PersonalLoan employee
+   21  java Program 1500000 CarLoan common
+   22  java Program 1500000 HomeLoan woman
+   23  java Program 1500000 HomeLoan welfare
+   24  javac finance/CarLoan.java 
+   25  java Program 1500000 PersonalLoan common
+   26  java Program 1500000 CarLoan common
+   27  pwd
+   28  cd ../../../
+   29  history > cmd0610evening.txt 
+   30  ls cmd0610
+   31  ls
+   32  vi cmd0610evening.txt 
+   33  cd ..
+   34  cp -r /mnt/d/Sample/
+   35  cp -r Java /mnt/d/Sample/
+   36  clear
+   37  cd ..
+   38  ls
+   39  cd ~
+   40  ls
+   41  cd Nilesh
+   42  ls
+   43* m
+   44  rm -r J
+   45  rm -r Java
+   46  mkdir Java
+   47  cd Java/
+   48  mv -r ../Language/ .
+   49  mv ../Language/ .
+   50  ls
+   51  clear
+   52  ls
+   53  mkdir Assignments
+   54  cd Assignments/
+   55  mkdir Sol1
+   56  cd Sol1
+   57  mkdir tours
+   58  vi tours/EconomyTours.java
+   59  cp tours/EconomyTours.java tours/PremiumTours.java
+   60  vi tours/PremiumTours.java 
+   61  javac tours/PremiumTours.java 
+   62  cp /mnt/d/Program2.java .
+   63  vi Program2.java 
+   64  javac Program2.java
+   65  javap tours/EconomyTours
+   66  ls tours
+   67  clear
+   68  javac tours/EconomyTours.java 
+   69  javap tours/EconomyTours
+   70  javac tours/PremiumTours.java.java 
+   71  javac tours/PremiumTours
+   72  javap tours/PremiumTours
+   73  clear
+   74  vi tours/EconomyTours
+   75  vi tours/EconomyTours.java
+   76  javac tours/EconomyTours.java
+   77  java Program 6 4 EconomyTours getPerDayRent
+   78  java Program 6 4 EconomyTours getPerDaysRent
+   79  java Program 6 4 PremiumTours getPerDaysRentForCommon
+   80  javap tours/PremiumTours
+   81  clear
+   82  java Program 6 4 PremiumTours getPerDayRentForCommon
+   83  java Program 6 4 PremiumTours getPerDayRentForWomens
+   84  java Program 6 4 PremiumTours getPerDayRentForSeniors
+   85  vi Program2.java 
+   86  cd ..
+   87  pwd
+   88  cd Nilesh
+   89  history >cmd0610postevening.txt

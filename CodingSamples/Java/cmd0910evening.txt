@@ -1,0 +1,22 @@
+    1  cd ../..
+    2  ls
+    3  mkdir AsyncParallelTest
+    4  cd AsyncParallelTest/
+    5  mkdir demo
+    6  cd demo/
+    7  cp ../../ThreadingTest1/demo/Activity.java .
+    8  code .
+    9  javac Program1.java 
+   10  java Program 5
+   11  java Program 10
+   12  java Program 20
+   13  java Program 30
+   14  javac Program2.java 
+   15  java Program 20
+   16  java Program 10
+   17  javac Program3.java 
+   18  java Program 20
+   19  java Program 30
+   20  cd ../../../
+   21  cd Java/
+   46  history > cmd0910evening.txt 

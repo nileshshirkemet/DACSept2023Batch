@@ -1,0 +1,32 @@
+    1  clear
+    2  cd IteratorTest/
+    3  ls
+    4  mkdir demo2
+    5  cd demo2
+    6  cp ../../GenericClassTest/demo/Interval.java .
+    7  code .
+    8  javac Program.java 
+    9  java Program 
+   10  javac Program.java 
+   11  java Program 
+   12  javac Program.java 
+   13  java Program 
+   14  javac Program.java 
+   15  java Program 
+   16  javac Program.java 
+   17  java Program 
+   18  java Program wednesday
+   19  java Program monday
+   20  java Program sunday
+   21  javac Program.java 
+   22  java Program monday
+   23  java Program sunday
+   24  javac Program.java 
+   25  java Program sunday
+   26  javac Program.java 
+   27  java Program sunday
+   28  javac Program.java 
+   29  java Program wednesday
+   30  java Program sunday
+   31  cd ..
+   32  history >cmd0410evening.txt

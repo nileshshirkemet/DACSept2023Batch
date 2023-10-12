@@ -1,0 +1,736 @@
+    1  sudo apt update 
+    2  sudo apt upgrade 
+    3  ls
+    4  xit
+    5  exit
+    6  ls
+    7  tar xvf jdk-17.tar.gz 
+    8  ls
+    9  tar xvf jdk-18.tar.gz 
+   10  tar xvf jdk-20.tar.gz 
+   11  ls
+   12  rm jdk-17_linux-x64_bin.tar.gz\:Zone.Identifier 
+   13  ls
+   14  exit
+   15  tar xvf jdk-17.tar.gz 
+   16  tar xvf jdk-18.tar.gz 
+   17  tar xvf jdk-120.tar.gz 
+   18  tar xvf jdk-20.tar.gz 
+   19  ls
+   20  mv jdk-17.0.8 jdk-17
+   21  mv jdk-18.0.2.1 jdk-18
+   22  mv jdk-20.0.2 jdk-20
+   23  ls
+   24  rm -r jdk-17.tar.gz 
+   25  ls
+   26  sudo rm jdk-18.tar.gz 
+   27  sudo rm jdk-20.tar.gz 
+   28  ls
+   29  vi ~/.bashrc
+   30  javac
+   31  exit
+   32  java -version
+   33  mkdir TestPC
+   34  cd TestPC/
+   35  ls
+   36  ls drivers/
+   37  cd SimpleSQLTest/
+   38  ls
+   39  vi Program.java 
+   40  ls
+   41  export CLASSPATH=../drivers/*:.
+   42  javac Program.java 
+   43  vi Program.java 
+   44  sudo javac Program.java 
+   45  javac Program.java 
+   46  echo $PATH
+   47  echo $CLASSPATH
+   48  javac
+   49  java -version 
+   50  vi Program.java 
+   51  sudo vi ~/.bashrc 
+   52  bash
+   53  exit
+   54  java -version
+   55  exit
+   56  cd TestPC/
+   57  ls
+   58  vi Hello.java 
+   59  javac Hello.java 
+   60  ls
+   61  java Greeter 
+   62  cd SimpleSQLTest/
+   63  vi Program.java 
+   64  ll Program.java 
+   65  cd ..
+   66  ll Hello.java 
+   67  ls
+   68  cd SimpleSQLTest/
+   69  ls
+   70  javac Program.java 
+   71  cd ..
+   72  ll SimpleSQLTest/
+   73  cd ..
+   74  ll TestPC/
+   75  cd TestPC/StoredProcTest/
+   76  ls
+   77  javac Program.java 
+   78  cd ..
+   79  vi Hello.java 
+   80  cd SimpleSQLTest/
+   81  vi Program.java 
+   82  chmod u+a Program.java 
+   83  chmode u+a Program.java 
+   84  sudo chmod u+a Program.java 
+   85  sudo chmod u+x Program.java 
+   86  ll Program.java 
+   87  javac Program.java 
+   88  cd ~/
+   89  cp TestPC/SimpleSQLTest/Program.java TestPC/
+   90  cd TestPC/
+   91  ls
+   92  vi Program.java 
+   93  javac Program.java 
+   94  export CLASSPATH=drivers/*:.
+   95  java Program 
+   96  ls
+   97  cd ..
+   98  ls
+   99  vi .bashrc 
+  100  bash
+  101  exit
+  102  java -version
+  103  cd TestPC/
+  104  ls
+  105  rm Program.class 
+  106  javac Program.java 
+  107  export CLASSPATH=drivers/*:.
+  108  java Program 
+  109  wget iitdac.met.edu/shared/java/gf.tar.gz
+  110  vi Program.java 
+  111  javac Program.java 
+  112  java Program
+  113  exit
+  114  cd TestPC/
+  115  ls
+  116  vi Program.java 
+  117  javac Program.java 
+  118  export CLASSPATH=drivers/*:.
+  119  javac Program.java 
+  120  java Program
+  121  ls
+  122  cp drivers/mysql-connector-java-8.0.25.jar  .
+  123  export CLASSPATH=.
+  124  javac Program.java
+  125  java Program
+  126  ls
+  127  export CLASSPATH=mysql-connector-java-8.0.25.jar:.
+  128  javac Program.java
+  129  java Program
+  130  javac Program.java
+  131  vi Program.java 
+  132  javac Program.java 
+  133  java Program
+  134  vi ~/.bashrc 
+  135  bash
+  136  exit
+  137  java -version
+  138  cd TestPC/
+  139  javac Program.java 
+  140  export CLASSPATH=mysql-connector-java-8.0.25.jar:.
+  141  java Program 
+  142  ls
+  143  vi StoredProcTest/Program.java 
+  144  ls
+  145  rm Program.java 
+  146  rm Program.class 
+  147  cp StoredProcTest/Program.java .
+  148  vi Program.java 
+  149  cp drivers/ojdbc8.jar .
+  150  ls
+  151  export CLASSPATH=ojdbc8.jar:.
+  152  javac Program.java 
+  153  java Program CU101 103 8
+  154  java Program
+  155  CD ..
+  156  cd ..
+  157  ls
+  158  cd TestPC/
+  159  ls
+  160  cp gf.tar.gz ../
+  161  cd ..
+  162  ls
+  163  tar xvf gf.tar.gz 
+  164  ls
+  165  ~/glassfish7/bin/asadmin start-domain
+  166  cd TestPC/
+  167  vi Program.java 
+  168  vi SimpleSQLTest/Program.java 
+  169  rm Program.java 
+  170  rm Program.class 
+  171  cp SimpleSQLTest/Program.java .
+  172  vi Program.java 
+  173  export CLASSPATH=mysql-connector-java-8.0.25.jar:.
+  174  javac Program.java 
+  175  java Program 
+  176  java Program CU101 103 9
+  177  vi Program.java 
+  178  java Program
+  179  vi Program.java 
+  180  java Program
+  181  javac Program.java 
+  182  java Program
+  183  cd ..
+  184  sudo apt install mysql-server
+  185  mysql -u root 
+  186  mysql --version
+  187  systemctl status mysql
+  188  sudo mysql
+  189  systemctl status mysql
+  190  exit
+  191  mysql
+  192  sudo mysql
+  193  sudo service mysql start
+  194  whereis mysql
+  195  whereis mysqld
+  196  whereis init.d
+  197  sudo service mysql status
+  198  vi /var/run/mysqld/mysqld.sock
+  199  nano /var/run/mysqld/mysqld.sock
+  200  sudo service mysql status
+  201  sudo apt update && apt upgrade 
+  202  sudo /etc/init.d/mysql start
+  203  mysql
+  204  mysql -u root
+  205  sudo mysql -u root
+  206  cd TestPC/
+  207  ls
+  208  vi Program.java 
+  209  rm Program.java 
+  210  cp SimpleSQLTest/Program.java .
+  211  vi Program.java 
+  212  javac Program.java 
+  213  java Program 
+  214  export CLASSPATH=mysql-connector-java-8.0.25.jar:.
+  215  java Program 
+  216  vi Program.java 
+  217  javac Program.java 
+  218  java Program 
+  219  vi Program.java 
+  220  javac Program.java 
+  221  vi Program.java 
+  222  javac Program.java 
+  223  java Program 
+  224  vi Program.java 
+  225  java Program 
+  226  javac Program.java 
+  227  java Program \
+  228  java Program
+  229  mysql
+  230  sudo mysql
+  231  exit
+  232  cd TestPC/
+  233  vi Program.java 
+  234  javac Program.java 
+  235  export CLASSPATH=mysql-connector-java-8.0.25.jar:.
+  236  java Program 
+  237  vi Program.java 
+  238  javac Program.java 
+  239  java Program 
+  240  sudo mysql
+  241  javac Program.java 
+  242  java Program 
+  243  sudo mysql
+  244  sudo mysql -u root -p root
+  245  sudo mysql -u root
+  246  sudo mysql
+  247  sudo mysql -u 'root'
+  248  sudo mysql -u 'root' -p 'root'
+  249  sudo mysql -u 'root' -p 
+  250  exit
+  251  sudo mysql
+  252  sudo mysql -u root 
+  253  sudo mysql -u root -p root
+  254  sudo mysql -u root -p
+  255  exit
+  256  cd TestPC/
+  257  vi Program.java 
+  258  javac Program.java 
+  259  export CLASSPATH=mysql-connector-java-8.0.25.jar:.
+  260  java Program 
+  261  java Program CU101 103 9
+  262  java Program 101 103 9
+  263  java Program 
+  264  java Program 
+  265  exit
+  266  java -version
+  267  ls
+  268  exit
+  269  ~/glassfish7/bin/asadmin start-domain
+  270  ~/glassfish7/bin/asadmin stop-domain
+  271  bash
+  272  exit
+  273  cp gf.tar.gz /mnt/d/
+  274  exit
+  275  ls
+  276  cp .bashrc /mnt/d/
+  277  wget iitdac.met.edu/shared/java/jdk.tar.gz
+  278  ls
+  279  cp jdk.tar.gz /mnt/d/
+  280  exit
+  281  ls
+  282  rm -r jdk-17
+  283  sudo rm -r jdk-17
+  284  sudo rm -r jdk-18
+  285  ls
+  286  javac 
+  287  java --version
+  288  ls
+  289  ls TestPC/
+  290  rm -r TestPC/
+  291  sudo -r TestPC/
+  292  sudo rm -r  TestPC/
+  293  cp -r /mnt/d/Testing/ .
+  294  ls
+  295  ll Testing/
+  296  rm -r Testing/
+  297  cp -r /mnt/d/Testing/ .
+  298  ls Testing/
+  299  ls
+  300  mysql -u root
+  301  sudo mysql
+  302  sudo mysql -u root
+  303  sudo mysql -u root -p
+  304  sudo /etc/init.d/mysql start
+  305  sudo mysql
+  306  sudo mysql -u root -p
+  307  ls
+  308  cd Testing/
+  309  ls
+  310  cd StoredProcTest/
+  311  ls
+  312  cd ..
+  313  cp -r /mnt/d/Testing/drivers/ .
+  314  export CLASSPATH=../drivers/*:.
+  315  ls
+  316  cd StoredProcTest/
+  317  ls
+  318  vi Program.java 
+  319  javac Program.java
+  320  vi Program.java 
+  321  java Program CU101 101 3
+  322  exit
+  323  ssh dacfaculty@iitdac.met.edu
+  324  clear
+  325  code .
+  326  mkdir Testing
+  327  cd Testing/
+  328  code .
+  329  ls
+  330  cp -r /mnt/d/Testing/DotnetTesting/ .
+  331  cd DotnetTesting/
+  332  code .
+  333  cd ..
+  334  ls
+  335  dotnet --version
+  336  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-7.0.401-linux-x64.tar.gz -C $HOME/dotnet
+  337  export DOTNET_ROOT=$HOME/dotnet
+  338  export PATH=$PATH:$HOME/dotnet
+  339  exit
+  340  dotnet -version
+  341  dotnet --version
+  342  ls
+  343  sudo rm dotnet-sdk-7.0.401-linux-x64.tar.gz
+  344  sudo rm dotnet-sdk-7.0.401-linux-x64.tar.gz\:Zone.Identifier 
+  345  ls
+  346  cp -r /mnt/d/dotnet-sdk-7.0.401-linux-x64.tar.gz 
+  347  cp -r /mnt/d/dotnet-sdk-7.0.401-linux-x64.tar.gz .
+  348  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-7.0.401-linux-x64.tar.gz -C $HOME/dotnet
+  349  export DOTNET_ROOT=$HOME/dotnet
+  350  export PATH=$PATH:$HOME/dotnet
+  351  dotnet
+  352  vi .bashrc 
+  353  exit
+  354  export DOTNET_ROOT=$HOME/dotnet
+  355  dotnet
+  356  ls
+  357  cd Testing/
+  358  ls
+  359  cd DotnetTesting/
+  360  ls
+  361  cd SimpleSqlTest/
+  362  ls
+  363  cd Do
+  364  cd DemoApp/
+  365  ls
+  366  dotnet run
+  367  cd ..
+  368  cd ParamSqlTest/
+  369  ls
+  370  cd DemoApp/
+  371  ls
+  372  code .
+  373  dotnet build
+  374  dotnet run CU201 201 10
+  375  dotnet build
+  376  dotnet run CU201 201 10
+  377  ls
+  378  cd Testing/DotnetTesting/ParamSqlTest/DemoApp/
+  379  code .
+  380  dotnet build
+  381  dotnet run
+  382  dotnet run CU201 201 10
+  383  dotnet build
+  384  dotnet run CU201 201 10
+  385  dotnet build
+  386  dotnet run CU201 201 10
+  387  exit
+  388  cd Testing/SimpleSQLTest/
+  389  ls
+  390  export CLASSPATH=../drivers/*:.
+  391  javac Program.java 
+  392  java Program 
+  393  vi Program.java
+  394  sudo /etc/init.d/mysql stop
+  395  javac Program.java 
+  396  java Program 
+  397  vi Program.java 
+  398  javac Program.java 
+  399  java Program 
+  400  exit
+  401  cd Testing/
+  402  ls
+  403  cd SimpleSQLTest/
+  404  ls
+  405  vi Program.java 
+  406  javac Program.java 
+  407  export CLASSPATH=../drivers/*
+  408  export CLASSPATH=../drivers/*:.
+  409  java Program
+  410  sudo /etc/init.d/mysql start
+  411  sudo mysql -u root -p
+  412  exit
+  413  cdac
+  414  ls
+  415  clear
+  416  java -version
+  417  exit
+  418  mysql -h 192.168.1.90 -u root -p
+  419  mysql -h 192.168.1.90 -u dbpro -p
+  420  mysql -h 192.168.1.90 -u root -p
+  421  exit
+  422  mysql -h 192.168.1.90 -u root -proot
+  423  code .
+  424  java --version
+  425  mkdir Test
+  426  cd Test
+  427  mkdir -p ConsoleTest/demo
+  428  cd ConsoleTest/demo/
+  429  code .
+  430  touch Program.java
+  431  code .
+  432  vi ~/.bashrc 
+  433  cd Test
+  434  cd ConsoleTest/
+  435  exec bash
+  436  code .
+  437  gcc
+  438  sudo apt install gcc
+  439  cd ..
+  440  explorer.exe .
+  441  mkdir Samples
+  442  vi ~/.bashrc 
+  443  vi ~/.bashrc
+  444  ls -a
+  445  rm .bashrc.swp 
+  446  vi ~/.bashrc
+  447  exit
+  448  cc\
+  449  cc
+  450  gcc
+  451  sudo apt install gcc
+  452  sudo apt update
+  453  sudo apt upgrade
+  454  sudo apt install gcc
+  455  cc
+  456  python --version
+  457  python3 --version
+  458  python
+  459  vi ~/.bashrc
+  460  exec bash
+  461  python --version
+  462  vi ~/.bashrc 
+  463  exec bash
+  464  exit
+  465  mkdir Java
+  466  cd Java/
+  467  mkdir Language
+  468  cd Language/
+  469  wget iitdac.met.edu/shared/java/Greeter.class
+  470  ls
+  471  vi Greeter.class
+  472  java Greeter 
+  473  javap Greeter
+  474  javap -c Greeter
+  475  uname -m
+  476  ls
+  477  code .
+  478  javac Program.java 
+  479  java Program 60000 12
+  480  javac Program.java 
+  481  java Program 60000 12
+  482  java Program 5OOO 4
+  483  java Program 60000 15
+  484  cd ..
+  485  ls
+  486  cd Language/
+  487  ls
+  488  cd ..
+  489  history > cmd2609evening.txt 
+  490  vi cmd2609evening.txt 
+  491  ls
+  492  cd Language/
+  493  ls
+  494  cd PrimitiveTypeTest/
+  495  ls
+  496  cd demo/
+  497  vi Program.java 
+  498  exi
+  499  exit
+  500  clear
+  501  ls
+  502  cd Java
+  503  ls
+  504  cd Language/
+  505  ls
+  506  cd PrimitiveTypeTest/
+  507  cd demo/
+  508  code .
+  509  ll
+  510  javac Investment.java 
+  511  ls
+  512  javac Program.java 
+  513  ls *.class
+  514  rm *.class
+  515  ls
+  516  javac Program.java 
+  517  rm *.class
+  518  javac Program.java 
+  519  ls *.class
+  520  java Program 200000 5
+  521  java Program 60000 12
+  522  javac Investment.java 
+  523  java Program 60000 12
+  524  ls
+  525  cd ..
+  526  ls
+  527  cd ..
+  528  history >cmd2709morning.txt
+  529  cd Language/
+  530  mkdir -p ClassTypeTest/demo
+  531  cd ClassTypeTest/demo/
+  532  code .
+  533  javac Program.java 
+  534  java Program 200000 5
+  535  javac Program.java 
+  536  java Program 200000 5
+  537  java Program 60000 12
+  538  cd ../..
+  539  cp -r ClassTypeTest/ EnumTypeTest
+  540  cd EnumTypeTest/demo/
+  541  code .
+  542  javac Program.java 
+  543  java Program 200000 5
+  544  java Program 60000 12
+  545  javac Program.java 
+  546  java Program 200000 5
+  547  java Program 60000 12
+  548  cd ..
+  549  ls
+  550  history>cmd2709evening.txt 
+  551  ls
+  552  ssh dacfaculty@iitdac.met.edu
+  553  clear
+  554  ls
+  555  cd Language/
+  556  ls
+  557  cd PrimitiveTypeTest/
+  558  ls
+  559  cd demo
+  560  ls
+  561  vi Program.java
+  562  vi Investment.java 
+  563  vi Program.java
+  564  vi Investment.java 
+  565  vi Program.java
+  566  vi Investment.java 
+  567  cd ..
+  568  ls
+  569  vi ClassTypeTest/
+  570  cd ClassTypeTest/
+  571  ls
+  572  cd demo/
+  573  ls
+  574  vi Investment.java 
+  575  vi Program.java 
+  576  vi Investment.java 
+  577  vi Program.java 
+  578  vi Investment.java 
+  579  vi Program.java 
+  580  cd ..
+  581  ls
+  582  vi EnumTypeTest/
+  583  cd EnumTypeTest/
+  584  ls
+  585  cd demo/
+  586  ls
+  587  vi RiskLevel.java 
+  588  vi Investment.java 
+  589  vi Program.java 
+  590  ced ..
+  591  cd ..
+  592  mkdir -p SubclassTest/demo
+  593  cd SubclassTest/demo/
+  594  ls
+  595  touch Program.java
+  596  ls
+  597  code .
+  598  javac Program.java 
+  599  java Program 
+  600  javac Program.java 
+  601  java Program 
+  602  javac Program.java 
+  603  java Program 
+  604  javac Program.java 
+  605  java Program 
+  606  ls
+  607  cd ..
+  608  ls
+  609  history >cmd2809bothSession.txt
+  610  clear
+  611  cd Language/
+  612  mkdir -p ObjectClassTest/demo
+  613  cd ObjectClassTest/demo/
+  614  touch Program.java
+  615  code .
+  616  javap java.lang.Object
+  617  javac Program.java 
+  618  java Program 
+  619  javac Program.java 
+  620  java Program 
+  621  javac Program.java 
+  622  java Program 
+  623  javac Program.java 
+  624  java Program 
+  625  javac Program.java 
+  626  java Program 
+  627  javac Program.java 
+  628  java Program 
+  629  javap java.lang.Object
+  630  javac Program.java 
+  631  java Program 
+  632  cd ..
+  633  history >cmd2909morning.txt
+  634  ls 
+  635  cd Language/
+  636  ls
+  637  cd SubclassTest/
+  638  ls
+  639  cd demo/
+  640  ls
+  641  ll payroll/
+  642  code .
+  643  cd ..
+  644  ls
+  645  cd ObjectClassTest/
+  646  ls
+  647  cd demo/
+  648  ls
+  649  vi Interval.java 
+  650  ls
+  651  cd Java/
+  652  ls
+  653  cd Language/
+  654  ls
+  655  cd ObjectClassTest/
+  656  ls
+  657  cd demo
+  658  ls
+  659  clear
+  660  ls
+  661  code .
+  662  cd ..
+  663  ls
+  664  cd SubclassTest/
+  665  ls
+  666  demo
+  667  cd demo
+  668  code .
+  669  exit
+  670  cd Java/Language/
+  671  ls
+  672  mkdir AbstractClassTest
+  673  cd AbstractClassTest/
+  674  mkdir bank
+  675  mkdir demo
+  676  cd bank
+  677  mkdir src
+  678  code src
+  679  ls
+  680  ls src
+  681  cd ..
+  682  history >cmd3009morning.txt
+  683  cd ..
+  684  ls 
+  685  cd Java/
+  686  ls
+  687  cd Language/
+  688  ls
+  689  cd SubclassTest/
+  690  ls
+  691  cd demo/
+  692  ls
+  693  ls payroll
+  694  cd ..
+  695  ls
+  696  cd demo/
+  697  ls
+  698  vi Program.java 
+  699  exit
+  700  cd Java/Language/AbstractClassTest/bank/
+  701  ls
+  702  ls *.java
+  703  ls src/banking/
+  704  ls
+  705  javac -d . src/banking/*.java
+  706  ls
+  707  ls banking/
+  708  jar -c -f bank.jar banking/
+  709  ls
+  710  jar -t -f bank.jar 
+  711  cd ../demo/
+  712  ls
+  713  touch Program.java
+  714  code .
+  715  mkdir lib
+  716  cp ../bank/bank.jar lib
+  717  javac Program.java 
+  718  ls
+  719  ll
+  720  javac -cp lib/bank.jar:. Program.java 
+  721  java Program 
+  722  java -cp lib/bank.jar:. Program 
+  723  java \ Program 
+  724* java  Program 7000
+  725  export CLASSPATH=lib/bank.jar:.
+  726  java  Program 
+  727  unset CLASSPATH
+  728  java  Program 
+  729  javac -cp lib/bank.jar:. Program.java 
+  730  java -cp lib/bank.jar:. Program 7000
+  731  java -cp lib/bank.jar:. Program 17000
+  732  java -cp lib/bank.jar:. Program 3OOO
+  733  javap java.lang.NumberFormatException
+  734  javap java.lang.IllegalArgumentException
+  735  javap java.lang.InterruptedException
+  739  history >cmd3009evening.txt

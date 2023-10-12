@@ -1,0 +1,44 @@
+    1  clear
+    2  ls
+    3  mkdir -p FileIOTest2/demo
+    4  cd FileIOTest2/demo/
+    5  code .
+    6  javap java.io.ObjectOutputStream
+    7  javap java.io.ObjectInputStream
+    8  javap java.io.String
+    9  javap java.lang.String
+   10  javap java.util.Date
+   11  ls
+   12  javac Program.java 
+   13  ls
+   14  java Program 
+   15  ls
+   16  javac Program.java 
+   17  java Program jack
+   18  java Program jill
+   19  java Program
+   20  java Program jill
+   21  java Program
+   22  java Program john
+   23  java Program
+   24  java Program jill
+   25  java Program
+   26  rm CitiZoo.store 
+   27  java Program
+   28  java Program jack
+   29  java Program jill
+   30  java Program john
+   31  java Program jack
+   32  java Program
+   33  rm CitiZoo.store 
+   34  javac Program.java 
+   35  java Program jack
+   36  javac Program.java 
+   37  java Program jack
+   38  java Program jill
+   39  java Program
+   40  cd ../..
+   41  ls
+   42  pwd
+   43  cd ../
+   44  history > cmd1010evening.txt 

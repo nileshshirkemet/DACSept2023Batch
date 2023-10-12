@@ -1,0 +1,35 @@
+    1  javac Program1.java 
+    2  java Program 
+    3  java Program &
+    4  java Program 
+    5  ip
+    6  ip show
+    7  ip
+    8  sudo apt install ipaddr
+    9  telnet 127.0.0.1 4000
+   10  telnet localhost 4000
+   11  keyboard
+   12  ps
+   13  kill 476
+   14  javac Program2.java 
+   15  java Program &
+   16  telnet localhost 4000
+   17  cd ../..
+   18  mkdir -p TCPClientTest/demo
+   19  cd TCPClientTest/demo/
+   20  code .
+   21  javac Program.java 
+   22  java Program monitor 4 localhost
+   23  java Program cpu 6 localhost
+   24  java Program printer 2 localhost
+   25  java Program mouse 300 localhost
+   26  java Program mouse 5 iitdac.met.edu
+   27  ping iitdac.met.edu
+   28  java Program mouse 5 192.168.4.161
+   29  java Program mouse 5 iitdac.met.edu
+   30  java Program mouse 5 192.168.1.1
+   31  java Program mouse 5 iitdac.met.edu
+   32  pwd
+   33  cd ../../../
+   34  ls
+   35  history > cmd1110evening.txt 

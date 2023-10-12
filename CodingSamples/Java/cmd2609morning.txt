@@ -1,0 +1,26 @@
+  465  cd Java/Language/
+  466  ls
+  467  mkdir PrimitiveTypeTest
+  468  cd PrimitiveTypeTest/
+  469  mkdir demo
+  470  cd demo/
+  471  code .
+  472  ls
+  473  javac Program.java 
+  474  ls
+  475  java Program 
+  476  javac Program.java 
+  477  java Program 
+  478  javac Program.java 
+  479  java Program 
+  480  javac Program.java 
+  481  java Program 
+  482  ls
+  483  javac Program.java 
+  484  ls
+  485  javac Program.java 
+  486  ls
+  487  rm Dummy.class 
+  488  ls
+  489  pwd
+  490  history >cmd2609morning.txt

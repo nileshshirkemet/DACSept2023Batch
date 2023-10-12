@@ -1,0 +1,8 @@
+
+ 1131  telnet
+ 1132  cd Java/Platform/
+ 1133  mkdir -p TCPServerTest/demo
+ 1134  cd TCPServerTest/demo/
+ 1135  wget iitdac.met.edu/shared/java/CitiTek.xml
+ 1136  code .
+ 1146  history >cmd1110morning.txt

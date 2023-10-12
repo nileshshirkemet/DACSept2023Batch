@@ -1,0 +1,69 @@
+    1  cd ../..
+    2  ls
+    3  mkdir AsyncParallelTest
+    4  cd AsyncParallelTest/
+    5  mkdir demo
+    6  cd demo/
+    7  cp ../../ThreadingTest1/demo/Activity.java .
+    8  code .
+    9  javac Program1.java 
+   10  java Program 5
+   11  java Program 10
+   12  java Program 20
+   13  java Program 30
+   14  javac Program2.java 
+   15  java Program 20
+   16  java Program 10
+   17  javac Program3.java 
+   18  java Program 20
+   19  java Program 30
+   20  cd ../../../
+   21  cd Java/
+   22  ls
+   23  cd -
+   24  ls
+   25  pwd
+   26  cd ..
+   27  ls
+   28  cd Samples/
+   29  ls
+   30  rm test.txt 
+   31  cd Java/
+   32  ls
+   33  ls Runtime/
+   34  ls Platform/
+   35  cd ..
+   36  cd Nilesh/
+   37  ls
+   38  cd Platform/
+   39  ls
+   40  cp -r AsyncParallelTest ~/Samples/Java/Platform/
+   41  cd ~/
+   42  cd Samples/
+   43  ls
+   44  cd Java/
+   45  ls
+   46  history > cmd0910evening.txt 
+   47  vi cmd0910evening.txt 
+   48  ls
+   49  ls Platform/
+   50  cd ..
+   51  cp -r Java /mnt/d/Sample/
+   52  cd Java/Runtime/
+   53  ls
+   54  cd ../
+   55  cd Platform/
+   56  ls
+   57  mkdir -p FileIOTest1/demo
+   58  cd FileIOTest1/demo/
+   59  code .
+   60  javac Program.java 
+   61  cp ../../AsyncParallelTest/demo/Program3.java data1.txt
+   62  java Program data1.txt data2.txt
+   63  java Program data2.txt data3.txt
+   64  java Program data4.txt data5.txt
+   65  javac Program.java 
+   66  java Program data1.txt 
+   67  javap java.io.Serializable
+   68  cd ..
+   69  history >cmd1010morning.txt

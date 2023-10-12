@@ -1,0 +1,58 @@
+    1  cd Java/Runtime/
+    2  ls
+    3  mkdir -p NativeMethodTest/demo
+    4  cd NativeMethodTest/
+    5  cd demo/
+    6  wget iitdac.met.edu/shared/java/native.tar.gz
+    7  tar xf native.tar.gz 
+    8  rm -r native.tar.gz 
+    9  ls
+   10  ls native/
+   11  code .
+   12  javac Program.java 
+   13  java Program 10 20
+   14  javac -h native/ Legacy.java 
+   15  cd native/
+   16  ls
+   17  make output=liblegacyjni.so
+   18  sudo apt install gcc
+   19  sudo apt install g++
+   20  make output=liblegacyjni.so
+   21  ls
+   22  cd ..
+   23  java Program 10 20
+   24  java -Djava.lib.path=native Program 10 20
+   25  java -Djava.library.path=native Program 10 20
+   26  java -Djava.library.path=native Program 10 100
+   27  java -Djava.library.path=native Program 10 10000
+   28  cd native/
+   29  sudo apt install make
+   30  sudo apt install g++
+   31  make output=liblegacyjni.so
+   32  rm liblegacyjni.so 
+   33  make output=liblegacyjni.so
+   34  ls
+   35  cd ..
+   36  javac -h native/ Legacy.java 
+   37  javac Program.java 
+   38  export LD_LIBRARY_PATH=.:native
+   39  java Program 10 100
+   40  cd native/
+   41  ls
+   42  rm liblegacyjni.so 
+   43  make output=liblegacyjni.so
+   44  ls
+   45  cd ..
+   46  java Program 10 100
+   47  java Program 1000 2000
+   48  cd native/
+   49  rm liblegacyjni.so 
+   50  make output=liblegacyjni.so
+   51  cd ..
+   52  javac Program.java 
+   53  java Program 10 100
+   54  java Program 1000 2000
+   55  pwd
+   56  cd ../../
+   57  cd ..
+   58  history > cmd0710morning.txt

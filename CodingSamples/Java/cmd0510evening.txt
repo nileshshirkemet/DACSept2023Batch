@@ -1,0 +1,42 @@
+    1  cd Runtime/
+    2  ls
+    3  cd MethodReferenceTest/
+    4  ls
+    5  cd demo/
+    6  ls
+    7  vi Program1.java
+    8  ls
+    9  cd ../..
+   10  mkdir -p FunctionalStreamTest/demo
+   11  cd FunctionalStreamTest/demo/
+   12  code .
+   13  javac Item.java 
+   14  javap -p Item
+   15  javac Program.java 
+   16  java Program items intel
+   17  java Program items samsung
+   18  java Program items microsoft
+   19  java Program items apple
+   20  javac Program.java 
+   21  java Program items intel
+   22  java Program items samsung
+   23  vi ../../MethodReferenceTest/demo/Program2.java 
+   24  javac Program.java 
+   25  java Program customers 0
+   26  java Program customers 50000
+   27  java Program customers 75000
+   28  java Program customers 90000
+   29  java Program customers 100000
+   30  java Program customers 0
+   31  javac Program.java 
+   32  java Program customers 0
+   33  javac Program.java 
+   34  java Program customers 0
+   35  java Program customers 50000
+   36  java Program customers 75000
+   37  javac Program.java 
+   38  java Program customers 75000
+   39  javac Program.java 
+   40  java Program customers 75000
+   41  cd ..
+   42  history >cmd0510evening.txt 

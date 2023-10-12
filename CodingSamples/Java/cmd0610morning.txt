@@ -1,0 +1,27 @@
+    1  ls
+    2  code .
+    3  javac finance/*.java
+    4  javac Program1.java 
+    5  rm Program1.class 
+    6  javac Program1.java 
+    7  java Program 1500000 HomeLoan
+    8  java Program 1500000 EducationLoan
+    9  java Program 1500000 PersonalLoan
+   10  java Program 1500000 CarLoan
+   11  javac Program2.java 
+   12  java Program 1500000 HomeLoan
+   13  java Program 1500000 HomeLoan common
+   14  java Program 1500000 HomeLoan woman
+   15  java Program 1500000 HomeLoan welfare
+   16  java Program 1500000 EducationLoan common
+   17  java Program 1500000 EducationLoan scholar
+   18  java Program 1500000 PersonalLoan common
+   19  java Program 1500000 PersonalLoan employee
+   20  java Program 1500000 PersonalLoan customer
+   21  java Program 1500000 CarLoan common
+   22  javac finance/CarLoan.java 
+   23  java Program 1500000 CarLoan common
+   24  java Program 1500000 CarLoan employee
+   25  javac finance/HomeLoan.java 
+   26  java Program 1500000 HomeLoan soldier
+   31  history > cmd0610morning.txt 

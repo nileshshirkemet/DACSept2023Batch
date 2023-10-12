@@ -1,0 +1,18 @@
+    1  CLEAR
+    2  clear
+    3  cd Platform/
+    4  mkdir -p ThreadingTest2/demo
+    5  cd ThreadingTest2/demo/
+    6  code .
+    7  cp ../../ThreadingTest1/demo/Activity.java .
+    8  javac Program1.java 
+    9  java Program 
+   10  javac Program1.java 
+   11  java Program 
+   12  javac Program1.java 
+   13  java Program 
+   14  javac Program2.java 
+   15  java Program 
+   16  javac Program3.java 
+   17  java Program 
+   21  history > cmd0910morning.txt 

@@ -1,0 +1,34 @@
+    1  clear
+    2  cd Java/
+    3  cd Runtime/
+    4  ls
+    5  mkdir MethodReferenceTest
+    6  cd MethodReferenceTest/
+    7  mkdir demo
+    8  cd demo/
+    9  code .
+   10  javap java.lang.Runnable
+   11  javap java.util.Iterator
+   12  javap java.lang.Iterable
+   13  javap java.io.Serializable
+   14  javac Program1.java 
+   15  java Program1 
+   16  javac Program1.java 
+   17  java Program1 
+   18  javac Program1.java 
+   19  java Program1 
+   20  ls Program1*.class
+   21  javac Program2.java 
+   22  java Program2
+   23  ls Program1*.class
+   24  ls Program2*.class
+   25  javap -p Program2
+   26  javac InterestRate.java 
+   27  javap InterestRate
+   28  cd ..
+   29  ls
+   30  vi test.txt
+   31  rm test.txt
+   32  cd ..
+   33  history >0410morning.txt
+   34  history >0510morning.txt

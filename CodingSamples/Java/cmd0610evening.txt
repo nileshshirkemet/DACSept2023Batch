@@ -1,0 +1,29 @@
+    1  clear
+    2  cd Java/Runtime/ReflectionTest1/demo/
+    3  javap java.lang.reflect.Method
+    4  cd ../..
+    5  cp -r ReflectionTest1/ ReflectionTest2/
+    6  cd ReflectionTest2/demo/
+    7  ls finance/*.class
+    8  rm finance/*.class
+    9  rm Program.class 
+   10  LS
+   11  ls
+   12  rm Program1.java 
+   13  mv Program2.java Program.java
+   14  code .
+   15  javac finance/*.java
+   16  javac Program.java 
+   17  java Program 1500000 EducationLoan common
+   18  java Program 1500000 EducationLoan scholar
+   19  java Program 1500000 PersonalLoan common
+   20  java Program 1500000 PersonalLoan employee
+   21  java Program 1500000 CarLoan common
+   22  java Program 1500000 HomeLoan woman
+   23  java Program 1500000 HomeLoan welfare
+   24  javac finance/CarLoan.java 
+   25  java Program 1500000 PersonalLoan common
+   26  java Program 1500000 CarLoan common
+   27  pwd
+   28  cd ../../../
+   29  history > cmd0610evening.txt 
