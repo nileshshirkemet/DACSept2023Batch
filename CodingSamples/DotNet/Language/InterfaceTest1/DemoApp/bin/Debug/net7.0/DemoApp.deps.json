@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DemoApp/1.0.0": {
+        "dependencies": {
+          "MET.Bank": "1.0.0"
+        },
+        "runtime": {
+          "DemoApp.dll": {}
+        }
+      },
+      "MET.Bank/1.0.0": {
+        "runtime": {
+          "lib/net7.0/BankLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MET.Bank/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SoVkLgRMorgFM6DSAmc4xQTwFC+ue/+yNJJ+hWjqiv6MOvgq1DnOvjPN0NPf+WkHxpkKMwgElWF4i+UL7wNdJQ==",
+      "path": "met.bank/1.0.0",
+      "hashPath": "met.bank.1.0.0.nupkg.sha512"
+    }
+  }
+}
