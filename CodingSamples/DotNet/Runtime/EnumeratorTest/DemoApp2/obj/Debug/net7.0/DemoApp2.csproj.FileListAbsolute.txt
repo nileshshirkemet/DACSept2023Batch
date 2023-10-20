@@ -1,0 +1,14 @@
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/bin/Debug/net7.0/DemoApp2
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/bin/Debug/net7.0/DemoApp2.deps.json
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/bin/Debug/net7.0/DemoApp2.runtimeconfig.json
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/bin/Debug/net7.0/DemoApp2.dll
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/bin/Debug/net7.0/DemoApp2.pdb
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.AssemblyInfoInputs.cache
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.AssemblyInfo.cs
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.csproj.CoreCompileInputs.cache
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.dll
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/refint/DemoApp2.dll
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.pdb
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/DemoApp2.genruntimeconfig.cache
+/home/cdac/Samples/DotNet/Runtime/EnumeratorTest/DemoApp2/obj/Debug/net7.0/ref/DemoApp2.dll
