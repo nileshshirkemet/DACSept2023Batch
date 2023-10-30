@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "6uwLbhpzJBnwpcYPUT2N7ZIoLJZWvyK8LlJOM1C16xs=",
+  "Source": "DemoApp2",
+  "BasePath": "_content/DemoApp2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoApp2/wwwroot",
+      "Source": "DemoApp2",
+      "ContentRoot": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreTest/DemoApp2/wwwroot/",
+      "BasePath": "_content/DemoApp2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreTest/DemoApp2/wwwroot/index.html",
+      "SourceId": "DemoApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreTest/DemoApp2/wwwroot/",
+      "BasePath": "_content/DemoApp2",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
