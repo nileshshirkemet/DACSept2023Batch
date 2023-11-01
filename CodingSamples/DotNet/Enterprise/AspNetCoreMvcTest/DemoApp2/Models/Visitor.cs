@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace DemoApp.Models;
 
@@ -11,5 +12,6 @@ public class Visitor
     [Range(0, 5)]
     public int Rating { get; set; }
 
+    [JsonIgnore]
     public List<Visitation> Visits { get; set; } = new();
 }

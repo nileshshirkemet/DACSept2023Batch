@@ -59,3 +59,5 @@
 /home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2/obj/Debug/net7.0/DemoApp2.pdb
 /home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2/obj/Debug/net7.0/DemoApp2.genruntimeconfig.cache
 /home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2/obj/Debug/net7.0/ref/DemoApp2.dll
+/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2/bin/Debug/net7.0/input.json
+/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvcTest/DemoApp2/bin/Debug/net7.0/DemoApp2.staticwebassets.runtime.json
