@@ -1,0 +1,43 @@
+    1  clear
+    2  ls
+    3  cd Java
+    4  ls
+    5  cd Enterprise
+    6  mkdir JPATest
+    7  cd JPATest/
+    8  mkdir demo
+    9  mkdir classes
+   10  rmdir classes/
+   11  cd demo/
+   12  mkdir classes
+   13  export CLASSPATH=../../drivers/*:classes
+   14  touch Program.java
+   15  code .
+   16  javac -d classes/ shopping/*.java
+   17  javac -d classes/ Program.java 
+   18  ls
+   19  ls shopping/
+   20  mkdir classes/META-INF
+   21  wget iitdac.met.edu/shared/java/persistence.xml -P classes/META-INF/
+   22  java Program
+   23  javac -d classes/ shopping/*.java
+   24  java Program
+   25  javac -d classes/ Program.java 
+   26  java Program
+   27  wget iitdac.met.edu/shared/java/orm.xml -P classes/META-INF/
+   28  javac -d classes/ shopping/*.java
+   29  javac -d classes/ Program.java 
+   30  java Program 
+   31  java Program 301
+   32  java Program 302
+   33  java Program 303
+   34  java Program 304
+   35  javac -d classes/ Program.java 
+   36  java Program 301
+   37  java Program 309
+   38  javac -d classes/ Program.java 
+   39  java Program 302
+   40  java Program 309
+   41  pwd
+   42  cd ../../../
+   43  history > cmd0611morning.txt 

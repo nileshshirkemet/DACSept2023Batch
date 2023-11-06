@@ -1,0 +1,35 @@
+    1  clear
+    2  ~/glassfish7/bin/asadmin start-domain
+    3  ~/glassfish7/bin/asadmin stop-domain
+    4  ~/glassfish7/bin/asadmin start-domain
+    5  cd Enterprise/
+    6  ls
+    7  mkdir ServletTest
+    8  cd ServletTest/
+    9  ls
+   10  mkdir demo
+   11  cd demo/
+   12  mkdir ServletDemoApp
+   13  mkdir ServletDemoApp/WEB-INF
+   14  mkdir ServletDemoApp/WEB-INF/classes
+   15  mkdir ServletDemoApp/WEB-INF/lib
+   16  wget iitdac.met.edu/shared/java/web.xml -P ServletDemoApp/WEB-INF/
+   17  ~/glassfish7/bin/asadmin ServletDemoApp
+   18  code .
+   19  ~/glassfish7/bin/asadmin deploy ServletDemoApp
+   20  ~/glassfish7/bin/asadmin undeploy ServletDemoApp
+   21  ~/glassfish7/bin/asadmin deploy ServletDemoApp
+   22  ~/glassfish7/bin/asadmin undeploy ServletDemoApp
+   23  ~/glassfish7/bin/asadmin deploy ServletDemoApp
+   24  export CLASSPATH=~/glassfish7/glassfish/lib/jakartaee.jar 
+   25  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+   26  ~/glassfish7/bin/asadmin undeploy ServletDemoApp
+   27  ~/glassfish7/bin/asadmin deploy ServletDemoApp
+   28  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+   29  touch ServletDemoApp/.reload
+   30  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+   31  touch ServletDemoApp/.reload
+   32  ~/glassfish7/bin/asadmin stop-domain
+   33  pwd
+   34  cd ../../../
+   35  history > cmd0611evening.txt 

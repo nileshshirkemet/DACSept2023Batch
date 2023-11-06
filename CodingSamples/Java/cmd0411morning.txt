@@ -1,0 +1,55 @@
+    1  cd Java/
+    2  mkdir Enterprise
+    3  cd Enterprise/
+    4  wget iitdac.met.edu/shared/java/drivers.tar.gz
+    5  tar xf drivers.tar.gz 
+    6  rm drivers.tar.gz 
+    7  ls
+    8  ls drivers/
+    9  mkdir -p JDBCTest1/demo
+   10  cd JDBCTest1/demo/
+   11  touch Program.java
+   12  code .
+   13  javac Program.java 
+   14  java Program 
+   15  export CLASSPATH=../../drivers/*:.
+   16  java Program 
+   17  javac Program.java 
+   18  java Program 
+   19  javac Program.java 
+   20  java Program 
+   21  javac Program.java 
+   22  java Program 
+   23  javap java.sql.Driver
+   24  mysql -h dac-faculty.local -uroot -proot 
+   25  javac Program.java 
+   26  java Program 
+   27  javac Program.java 
+   28  java Program 
+   29  java Program 303
+   30  java Program 
+   31  java Program 305
+   32  java Program 
+   33  java Program 304
+   34  java Program 
+   35  java Program 403
+   36  cd ../..
+   37  ls
+   38  mkdir JDBCTest2
+   39  cd JDBCTest2
+   40  mkdir demo1
+   41  cd demo1/
+   42  touch Program.java
+   43  code .
+   44  javac Program.java 
+   45  java Program 
+   46  javac Program.java 
+   47  java Program 
+   48  javac Program.java 
+   49  javac Program CU103 105 7
+   50  java Program CU103 105 7
+   51  java Program CU102 109 12
+   52  java Program CU102 101 12
+   53  pwd
+   54  cd ../../../
+   55  history > cmd0411morning.txt

@@ -1,0 +1,19 @@
+    1  cd Java/Enterprise/JDBCTest2/demo1/
+    2  ls
+    3  code .
+    4  cd ../..
+    5  cd JDBCTest2
+    6  ls
+    7  mkdir demo2
+    8  cd demo2
+    9  wget iitdac.met.edu/shared/java/salesora.sql
+   10  vi salesora.sql 
+   11  touch Program.java
+   12  code .
+   13  javac Program.java 
+   14  java Program CU104 105 12
+   15  java Program CU105 104 15
+   16  java Program CU102 104 15
+   17  pwd
+   18  cd ../../../
+   19  history > cmd0411evening.txt 
