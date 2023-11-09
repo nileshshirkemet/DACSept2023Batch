@@ -1,0 +1,23 @@
+    1  cd Java/Enterprise/
+    2  ls
+    3  mkdir RMIServerTest
+    4  cd RMIServerTest/
+    5  mkdir demo
+    6  cd demo
+    7  mkdir classes
+    8  mkdir shopping
+    9  cp ../../JPATest/demo/shopping/OrderEntity.java shopping/
+   10  cp -r ../../JPATest/demo/classes/META-INF/ classes/
+   11  touch Program.java
+   12  export CLASSPATH=../../drivers/*:classes
+   13  code .
+   14  javac -d classes/ shopping/*.java
+   15  javac -d classes/ Program.java 
+   16  java Program 
+   17  java Program &
+   18  java Program
+   19  ps
+   20  kill 23067
+   21  cd ..
+   22  ls
+   23  history >cmd0911morning.txt
