@@ -1,0 +1,23 @@
+    1  clear
+    2  ls
+    3  cd Samples/
+    4  ls
+    5  cd Java/
+    6  cd demo
+    7  cd Enterprise/
+    8  ls
+    9  cd JSPTest2
+   10  ls
+   11  cd demo/
+   12  clear
+   13  code .
+   14  javac -d JSPDemoApp2/WEB-INF/classes/ model/*.java
+   15  touch JSPDemoApp2/.reload
+   16  javac -d JSPDemoApp2/WEB-INF/classes/ model/*.java
+   17  touch JSPDemoApp2/.reload
+   18  javac -d JSPDemoApp2/WEB-INF/classes/ model/*.java
+   19  touch JSPDemoApp2/.reload
+   20  ~/glassfish7/bin/asadmin restart-domain
+   21  pwd
+   22  cd ../../../
+   23  history > cmd0811evening.txt 

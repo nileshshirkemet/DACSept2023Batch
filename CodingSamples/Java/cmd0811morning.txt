@@ -1,0 +1,25 @@
+    1  cd Java/Enterprise/JSPTest1/
+    2  cd demo/
+    3  LS
+    4  ls
+    5  ~/glassfish7/bin/asadmin start-domain
+    6  export CLASSPATH=~/glassfish7/glassfish/lib/jakartaee.jar 
+    7  code .
+    8  wget iitdac.met.edu/shared/java/taglib.tld -P JSPDemoApp1/WEB-INF/
+    9  javac -d JSPDemoApp1/WEB-INF/classes/ components/*.java
+   10  touch JSPDemoApp1/.reload
+   11  cd ../..
+   12  mkdir JSPTest2
+   13  cd JSPTest2
+   14  mkdir demo
+   15  cd demo/
+   16  mkdir -p JSPDemoApp2/WEB-INF/classes
+   17  mkdir -p JSPDemoApp2/WEB-INF/lib
+   18  cp ../../drivers/ojdbc8.jar JSPDemoApp2/WEB-INF/lib/
+   19  cp ../../JSPTest1/demo/JSPDemoApp1/WEB-INF/web.xml JSPDemoApp2/WEB-INF/
+   20  touch Program.java
+   21  code .
+   22  ~/glassfish7/bin/asadmin deploy JSPDemoApp2
+   23  pwd
+   24  cd ../../../
+   25  history > cmd0811morning.txt 

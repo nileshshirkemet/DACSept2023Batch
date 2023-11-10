@@ -1,0 +1,17 @@
+    1  clear
+    2  pwd
+    3  cd Enterprise/
+    4  mkdir JSPTest1
+    5  cd JSPTest1/
+    6  mkdir demo
+    7  cd demo
+    8  mkdir -p JSPDemoApp1/WEB-INF/classes
+    9  cp ../../ServletTest/demo/ServletDemoApp/WEB-INF/web.xml JSPDemoApp1/WEB-INF/
+   10  code .
+   11  ~/glassfish7/bin/asadmin deploy JSPDemoApp1
+   12  ls JSPDemoApp1/
+   13  javac -d JSPDemoApp1/WEB-INF/classes/ components/*.java
+   14  touch JSPDemoApp1/.reload
+   15  pwd
+   16  cd ../../../
+   18  history > cmd0711evening.txt 

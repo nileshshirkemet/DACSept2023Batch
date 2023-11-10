@@ -1,0 +1,18 @@
+    1  cd Java/Enterprise/ServletTest/demo/
+    2  ~/glassfish7/bin/asadmin start-domain
+    3  export CLASSPATH=~/glassfish7/glassfish/lib/jakartaee.jar 
+    4  code .
+    5  java --version
+    6  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+    7  touch ServletDemoApp/.reload 
+    8  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+    9  touch ServletDemoApp/.reload 
+   10  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+   11  touch ServletDemoApp/.reload 
+   12  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+   13  touch ServletDemoApp/.reload 
+   14  javac -d ServletDemoApp/WEB-INF/classes/ components/*.java
+   15  touch ServletDemoApp/.reload 
+   16  pwd
+   17  cd ../../../
+   18  history >cmd0711morning.txt

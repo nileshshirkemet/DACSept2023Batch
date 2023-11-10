@@ -1,0 +1,40 @@
+    1  cd Java/Enterprise/RMIServerTest/
+    2  cd demo/
+    3  java -cp ../../drivers/*:classes Program &
+    4  cd ../..
+    5  mkdir JAXRSTest
+    6  cd JAXRSTest/
+    7  mkdir demo
+    8  cd demo
+    9  mkdir shopping
+   10  cp ../../RMIServerTest/demo/shopping/OrderManager.java shopping/
+   11  cp ../../RMIServerTest/demo/shopping/OrderEntity.java shopping/
+   12  mkdir -p JAXRSDemoApp/WEB-INF/classes
+   13  ~/glassfish7/bin/asadmin start-domain
+   14  export CLASSPATH=~/glassfish7/glassfish/lib/jakartaee.jar 
+   15  cp ../../ServletTest/demo/ServletDemoApp/WEB-INF/web.xml JAXRSDemoApp/WEB-INF/
+   16  code .
+   17  javac -d JAXRSDemoApp/WEB-INF/classes/ shopping/*.java
+   18  ~/glassfish7/bin/asadmin deploy JAXRSDemoApp
+   19  curl localhost:8080/JAXRSDemoApp/api/sales/CU101
+   20  curl localhost:8080/JAXRSDemoApp/api/sales/CU102
+   21  curl localhost:8080/JAXRSDemoApp/api/sales/CU108
+   22  curl localhost:8080/JAXRSDemoApp/api/sales -X POST -H "Content-Type: application/json" -d @data.json 
+   23  javac -d JAXRSDemoApp/WEB-INF/classes/ shopping/*.java
+   24  touch JAXRSDemoApp/.reload
+   25  curl localhost:8080/JAXRSDemoApp/api/sales/CU101
+   26  curl localhost:8080/JAXRSDemoApp/api/sales/CU102
+   27  curl localhost:8080/JAXRSDemoApp/api/sales/CU103
+   28  curl localhost:8080/JAXRSDemoApp/api/sales/CU104
+   29  curl localhost:8080/JAXRSDemoApp/api/sales -X POST -H "Content-Type: application/json" -d @data.json 
+   30  cd JAXRSDemoApp/
+   31  wget iitdac.met.edu/shared/java/reactclient.tar.gz
+   32  tar xf reactclient.tar.gz 
+   33  rm reactclient.tar.gz 
+   34  cd ..
+   35  javac -d JAXRSDemoApp/WEB-INF/classes/ shopping/*.java
+   36  touch JAXRSDemoApp/.reload
+   37  curl localhost:8080/JAXRSDemoApp/api/sales/CU104
+   38  pwd
+   39  cd ../../../
+   40  history > cmd1011morning.txt 
